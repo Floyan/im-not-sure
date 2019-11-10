@@ -1,0 +1,188 @@
+[13:41:02] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-225 (MC: 1.14.4) ---
+[13:41:02] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[13:41:02] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:02] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[13:41:03] [Paper Watchdog Thread/ERROR]: The server is waiting on these chunks: []
+[13:41:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:03] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[13:41:03] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[13:41:03] [Paper Watchdog Thread/ERROR]: 	Stack:
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		java.util.TimSort.sort(TimSort.java:234)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		java.util.Arrays.sort(Arrays.java:1512)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:348)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.tree.CommandNode.addChild(CommandNode.java:110)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:303)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:249)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.a(PlayerList.java:908)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.d(PlayerList.java:759)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.a(PlayerList.java:167)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.LoginListener.c(LoginListener.java:174)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.LoginListener.tick(LoginListener.java:65)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.NetworkManager.a(NetworkManager.java:256)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.ServerConnection.c(ServerConnection.java:139)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1255)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925)
+[13:41:03] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[13:41:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:03] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[13:41:03] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:07] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-225 (MC: 1.14.4) ---
+[13:41:07] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[13:41:07] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:07] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[13:41:07] [Paper Watchdog Thread/ERROR]: The server is waiting on these chunks: []
+[13:41:07] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:07] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[13:41:07] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[13:41:07] [Paper Watchdog Thread/ERROR]: 	Stack:
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.HashMap.hash(HashMap.java:339)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.HashMap.merge(HashMap.java:1228)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1320)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.stream.Collectors$$Lambda$124/418179060.accept(Unknown Source)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:352)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.tree.CommandNode.addChild(CommandNode.java:110)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:303)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:249)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.a(PlayerList.java:908)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.d(PlayerList.java:759)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.a(PlayerList.java:167)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.LoginListener.c(LoginListener.java:174)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.LoginListener.tick(LoginListener.java:65)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.NetworkManager.a(NetworkManager.java:256)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.ServerConnection.c(ServerConnection.java:139)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1255)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925)
+[13:41:07] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[13:41:07] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:07] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[13:41:07] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:19] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-225 (MC: 1.14.4) ---
+[13:41:19] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[13:41:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:19] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[13:41:19] [Paper Watchdog Thread/ERROR]: The server is waiting on these chunks: []
+[13:41:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:19] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[13:41:19] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[13:41:19] [Paper Watchdog Thread/ERROR]: 	Stack:
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1320)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.util.stream.Collectors$$Lambda$124/418179060.accept(Unknown Source)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:352)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.tree.CommandNode.addChild(CommandNode.java:110)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:303)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:249)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.a(PlayerList.java:908)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.d(PlayerList.java:759)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.removeOp(PlayerList.java:887)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.DedicatedPlayerList.removeOp(SourceFile:51)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_14_R1.entity.CraftPlayer.setOp(CraftPlayer.java:168)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		skinsrestorer.bukkit.skinfactory.UniversalSkinFactory.lambda$updateSkin$0(UniversalSkinFactory.java:282)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		skinsrestorer.bukkit.skinfactory.UniversalSkinFactory$$Lambda$3551/2020491779.run(Unknown Source)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1171)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925)
+[13:41:19] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[13:41:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:19] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[13:41:19] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:24] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-225 (MC: 1.14.4) ---
+[13:41:24] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[13:41:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:24] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[13:41:24] [Paper Watchdog Thread/ERROR]: The server is waiting on these chunks: []
+[13:41:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:24] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[13:41:24] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[13:41:24] [Paper Watchdog Thread/ERROR]: 	Stack:
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		java.util.TimSort.sort(TimSort.java:234)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		java.util.Arrays.sort(Arrays.java:1512)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:348)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.tree.CommandNode.addChild(CommandNode.java:110)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:303)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:249)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.a(PlayerList.java:908)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.d(PlayerList.java:759)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.addOp(PlayerList.java:877)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.DedicatedPlayerList.addOp(SourceFile:45)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_14_R1.entity.CraftPlayer.setOp(CraftPlayer.java:166)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		skinsrestorer.bukkit.skinfactory.UniversalSkinFactory.lambda$updateSkin$0(UniversalSkinFactory.java:283)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		skinsrestorer.bukkit.skinfactory.UniversalSkinFactory$$Lambda$3551/2020491779.run(Unknown Source)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1171)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925)
+[13:41:24] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[13:41:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:24] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[13:41:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:30] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-225 (MC: 1.14.4) ---
+[13:41:30] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[13:41:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:30] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[13:41:30] [Paper Watchdog Thread/ERROR]: The server is waiting on these chunks: []
+[13:41:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:30] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[13:41:30] [Paper Watchdog Thread/ERROR]: 	PID: 17 | Suspended: false | Native: false | State: RUNNABLE
+[13:41:30] [Paper Watchdog Thread/ERROR]: 	Stack:
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.LinkedHashMap.newNode(LinkedHashMap.java:256)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.HashMap.merge(HashMap.java:1269)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.stream.Collectors.lambda$toMap$58(Collectors.java:1320)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.stream.Collectors$$Lambda$124/418179060.accept(Unknown Source)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReduceOps$3ReducingSink.accept(ReduceOps.java:169)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:352)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.tree.CommandNode.addChild(CommandNode.java:110)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:303)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.CommandDispatcher.a(CommandDispatcher.java:249)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.a(PlayerList.java:908)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.d(PlayerList.java:759)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.PlayerList.addOp(PlayerList.java:877)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.DedicatedPlayerList.addOp(SourceFile:45)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_14_R1.entity.CraftPlayer.setOp(CraftPlayer.java:166)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		skinsrestorer.bukkit.skinfactory.UniversalSkinFactory.lambda$updateSkin$0(UniversalSkinFactory.java:283)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		skinsrestorer.bukkit.skinfactory.UniversalSkinFactory$$Lambda$3551/2020491779.run(Unknown Source)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1171)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:417)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1098)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:925)
+[13:41:30] [Paper Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:748)
+[13:41:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[13:41:30] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[13:41:30] [Paper Watchdog Thread/ERROR]: ------------------------------
